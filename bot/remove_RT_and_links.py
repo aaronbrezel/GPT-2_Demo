@@ -36,7 +36,7 @@ with open("tweet_text.csv", encoding='utf8') as tweets:
             rt.append(stripped_string)
         else:
             for index,token in enumerate(tokens):
-                if token[:12] == "https://t.co":
+                if token[:12] == "https://t.co" or token[:11] == "http://t.co":
                     tokens.pop(index)
             recomb = " ".join(tokens)
             tweets_minus_rt.append(recomb)
@@ -44,7 +44,7 @@ print(f'Total tweets: {count}') #Print of the total number of tweets
 print(f'Tweets minus retweets: {len(tweets_minus_rt)}') #Print of the number of tweets minus retweets
 print(f'Retweets: {len(rt)}') #Print of the number of rts in the corpus
 
-print('Removing writing tweets (not retweets) to tweet_text_minus_rt.csv')
+print('Writing tweets (not retweets) to tweet_text_minus_rt.csv')
 
 with open("tweet_text_minus_rt.csv", encoding="utf8", mode='w', newline='') as new_csv:
     writer = csv.writer(new_csv)
