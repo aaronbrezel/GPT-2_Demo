@@ -2,7 +2,7 @@
 
 A two-part demonstration of GPT-2 as a creative tool:
 
-1. A twitter bot trained on over 40,000 tweets from the @realDonaldTrump Twitter Account
+1. A twitter bot trained on over 28,000 tweets from the @realDonaldTrump Twitter Account
 2. A [companion podcast](https://soundcloud.com/user-545533369/on-computational-creative-assists) where three Columbia University experts and I tackle GPT-2 as a creative assists for artists. We discuss the origins of mathematic-induced inspiration and dissect the output of GPT-2 on air.      
  
 ## Ingredients:
@@ -19,7 +19,7 @@ A two-part demonstration of GPT-2 as a creative tool:
  Current steps:
 
 1. Used https://colab.research.google.com/drive/1VLG8e7YSEwypxU-noRNhsv5dW4NfTGce as guide for training of both sophie's model and the donald trump tweets model. Unfortunately, I do not have a GPU.  
-2. Downloaded text of all of trumps tweets as of 5:30 p.m. 11/26/19 from 
+2. Downloaded text of all of trumps tweets as of 5:30 p.m. 11/26/19 from the [Trump Twitter Archive](http://www.trumptwitterarchive.com/archive). Tweet text was edited to remove retweets and and outbound links
 3. 
 
 ## Twitter bot notes
