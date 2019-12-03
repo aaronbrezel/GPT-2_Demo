@@ -6,7 +6,7 @@
 
 **BREZEL 1:** Thanks for the introduction Rob. Even Artists can’t escape the talk of automation these days. 
 
-AI-generated art has been on the scene for a few years now. Christies auctioned off a portait made by a computer for a whopping $432,000 in 2018. But this year – perhaps thanks to a bit of viral marketing – a program called GPT-2 is generating its fair share of buzz. It’s a computer program that can automatically generate sentences. Kind of like your email’s text prediction on 
+AI-generated art has been on the scene for a few years now. Christies auctioned off a portait made by a computer for a whopping $432,000 in 2018. But this year – perhaps thanks to a bit of viral marketing – a program called GPT-2 is generating its fair share of buzz. It’s a computer program that can automatically generate sentences. Kind of like your email’s text prediction on steroids.
 
 When Open AI, a Silicon Valley non-profit released the program, they made some suggestions about its potential uses. One was to create an unstoppable army of talkative robots to drive discourse on the internet and destroy the world. No offense Rob.
 ROBOT VOICE 2: None taken.
