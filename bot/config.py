@@ -1,10 +1,12 @@
 import tweepy 
+from keys import set_keys
 
 
 def create_api():
+    keys = set_keys()
 
-    auth = tweepy.OAuthHandler(api_key,api_secret_key)
-    auth.set_access_token(access_token,access_token_secret)
+    auth = tweepy.OAuthHandler(keys['api_key'],keys['api_secret_key'])
+    auth.set_access_token(keys['access_token'],keys['access_token_secret'])
 
     api = tweepy.API(auth, wait_on_rate_limit=True,
     wait_on_rate_limit_notify=True)
