@@ -15,26 +15,26 @@ A two-part demonstration of GPT-2 as a creative tool:
  
 ## Show notes
 
-When Open AI, a Silicon Valley non-profit released the GPT-2, they made some suggestions about their language model's potential uses. One was to create an unstoppable army of talkative robots to drive discourse on the internet and destroy the world.
+When Open AI, a Silicon Valley non-profit released the GPT-2, they made some suggestions about its potential uses. One was to create an unstoppable army of talkative robots to drive discourse on the internet and destroy the world.
 
 Another was to serve as a writing assistant – to help people overcome writer’s block.
 
-We unpack the later with three Columbia University experts: Chris Kedzie and Katy Gero, PhD candidates from the computer science departments, and Sophie Brett-Chin, who's earning an MFA concentrating in creative non-fiction.
+We unpack the later with three Columbia University experts: Chris Kedzie and Katy Gero, PhD candidates from the computer science departments, and Sophie Brett-Chin, who's earning an MFA concentraiting in creative non-fiction.
 
 
 * [Intro script](https://github.com/aaronbrezel/GPT-2_Demo/blob/master/Podcast/intro_script.md) 
 * [Sample outputs](https://github.com/aaronbrezel/GPT-2_Demo/blob/master/Podcast/Sample_Outputs.md)
 
 
+
+
+Current steps:
+
 1. Used https://colab.research.google.com/drive/1VLG8e7YSEwypxU-noRNhsv5dW4NfTGce as guide for training of both sophie's model and the donald trump tweets model. Unfortunately, I do not have a GPU.  
 2. Downloaded text of all of trumps tweets as of 5:30 p.m. 11/26/19 from the [Trump Twitter Archive](http://www.trumptwitterarchive.com/archive). Tweet text was edited to remove retweets and and outbound links
 3. 
 
 ## Twitter bot notes
-
-**Note:** Bot is currently inactive 
-
-The roboTrump bot responds to Twitter users using a 355M  
 
 
 ## Credit: 
