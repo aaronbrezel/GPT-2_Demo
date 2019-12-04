@@ -3,14 +3,14 @@
 A two-part demonstration of GPT-2 as a creative tool:
 
 1. A [twitter bot](https://twitter.com/tweetForThat1) trained on over 28,000 tweets from the @realDonaldTrump Twitter Account. Still under development. 
-2. A [companion podcast](https://soundcloud.com/user-545533369/on-computational-creative-assists) where three Columbia University experts and I tackle GPT-2 as a creative assists for artists. We discuss the origins of mathematic-induced inspiration and dissect the output of GPT-2 on air.      
+2. A [companion podcast](https://soundcloud.com/user-545533369/on-computational-creative-assists) where three Columbia University experts and I tackle GPT-2 as a creative assist for writers. We discuss the origins of mathematically-induced inspiration and dissect the output of GPT-2 on air.      
  
 ## Ingredients:
 
-* [GPT-2](https://openai.com/blog/better-language-models/)
-* [GPT-2-simple](https://github.com/minimaxir/gpt-2-simple)
-* [Google colab](https://colab.research.google.com/)
-* [Tweepy](https://www.tweepy.org/)
+* [GPT-2](https://openai.com/blog/better-language-models/) -- language model
+* [GPT-2-simple](https://github.com/minimaxir/gpt-2-simple) -- Python library for training model
+* [Google colab](https://colab.research.google.com/) -- Python notebook for training model (free GPU)
+* [Tweepy](https://www.tweepy.org/) -- Python library for interacting with Twitter
  
  
 ## Show notes
