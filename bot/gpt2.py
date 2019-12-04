@@ -46,7 +46,7 @@ def remove_hanging_clause(token_list): #Makes sure the tweet ends in a full sent
 
 def gpt_predict(prompt,sess):
 
-  gen_text = gpt2.generate(sess, length=250, temperature=0.7, prefix=prompt, run_name='trump_tune_small', return_as_list=True)[0]
+  gen_text = gpt2.generate(sess, length=200, temperature=0.7, prefix=prompt, run_name='trump_tune_small', return_as_list=True)[0]
 
   text_minus_tags = str(gen_text).replace("<|endoftext|>","").replace("<|startoftext|>", "") #remove text artifacts from gpt-2 output
 
