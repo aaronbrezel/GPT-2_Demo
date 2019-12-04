@@ -42,15 +42,15 @@ The finetuning was performed using the [trump_finetune.ipynb](https://github.com
 
 ### bot files
 * [keys.py](https://github.com/aaronbrezel/GPT-2_Demo/blob/master/bot/keys.py)
- * Picks up keys and tokens needed to interact with the Twitter api as the bot
+    * Picks up keys and tokens needed to interact with the Twitter api as the bot
 * [config.py](https://github.com/aaronbrezel/GPT-2_Demo/blob/master/bot/config.py)
- * Includes method for setting up the api class
+    * Includes method for setting up the api class
 * [bot.py](https://github.com/aaronbrezel/GPT-2_Demo/blob/master/bot/bot.py)
- * main() includes bot loop for detecting incoming Twitter mentions
- * answer_mentions() answers twitter mentions based on content of tweet
- * run_model() sends tweet text into gpt-2 model. Calls function from gpt2.py
+    * main() includes bot loop for detecting incoming Twitter mentions
+    * answer_mentions() answers twitter mentions based on content of tweet
+    * run_model() sends tweet text into gpt-2 model. Calls function from gpt2.py
 * [gpt2.py](https://github.com/aaronbrezel/GPT-2_Demo/blob/master/bot/gpt2.py)
- * Defines methods for predicting and cleaning text to send back to Twitter bot
+    * Defines methods for predicting and cleaning text to send back to Twitter bot
 
 
 ## Credit: 
